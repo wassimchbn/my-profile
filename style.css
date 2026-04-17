@@ -1,0 +1,100 @@
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+   background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+.card-white {
+   background: #ffffff;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+
+}
+
+
+.card-white:hover {
+   transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #1f1f1f;
+  font-size: 38px;
+}
+
+h2 {
+  color: #8b5e3c; 
+}
+
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+    transform: scale(1.05);
+}
+
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: black;
+}
